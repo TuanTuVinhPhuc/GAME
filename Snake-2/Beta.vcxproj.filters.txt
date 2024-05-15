@@ -16,6 +16,9 @@
     <Filter Include="Resource Files\img">
       <UniqueIdentifier>{62a1e960-c9fa-47be-83a0-51606321396d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Resource Files\sfx">
+      <UniqueIdentifier>{5629c7e0-fc51-41c0-9b55-f98260735b0a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -32,5 +35,16 @@
     <Image Include="img\snake_head.png">
       <Filter>Resource Files\img</Filter>
     </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="sfx\bite.mp3">
+      <Filter>Resource Files\sfx</Filter>
+    </Media>
+    <Media Include="sfx\crashWall.mp3">
+      <Filter>Resource Files\sfx</Filter>
+    </Media>
+    <Media Include="sfx\uwu.mp3">
+      <Filter>Resource Files\sfx</Filter>
+    </Media>
   </ItemGroup>
 </Project>
